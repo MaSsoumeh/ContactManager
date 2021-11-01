@@ -17,6 +17,7 @@ const CardContact = (props) => {
             color: "red",
             padding: "0px 0px 20px 0px",
           }}
+          onClick={() => props.clickHandler(id)}
         ></i>
       </div>
     </div>
